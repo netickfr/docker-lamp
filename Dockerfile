@@ -51,6 +51,7 @@ RUN apt-get install mariadb-common mariadb-server mariadb-client -y
 RUN apt-get install postfix -y
 RUN apt-get install git nodejs npm composer nano tree vim curl ftp -y
 RUN npm install -g bower grunt-cli gulp
+RUN apt-get install composer
 
 ENV LOG_STDOUT **Boolean**
 ENV LOG_STDERR **Boolean**
